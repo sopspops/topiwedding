@@ -9,7 +9,7 @@ import love from "./assets/love.png";
 import sopi_toni from "./assets/sopi_toni.jpg";
 
 // Paste the deployed Google Apps Script web app URL ending in /exec.
-const RSVP_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxa34DM0bh9HIMr0Z87j7XdH9nzTNfC2kBiQc29S-cVIhfuUbbJLeQgIEJ_jEDhqmLioA/exec";
+const RSVP_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbw5HjFOIgLK2HupMOKA8T_3DvqKgoHpNqRE3VjtxswCE9k4jzkdFnMbdHaOiEHmlapNlw/exec";
 
 const details = [
   // Change each image value to another imported photo for that card.
