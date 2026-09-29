@@ -52,8 +52,8 @@ export default function App() {
         <div className="story__copy">
           <p className="section-number">01</p>
           <h2 id="story-title">Our story</h2>
-          <p>We’re getting married, and we can’t wait to celebrate with our favorite people. Join us for a weekend filled with love, laughter, and memories we’ll keep forever.</p>
-          <p>Save the date and come make a whole weekend of it with us.</p>
+          <p>We have Strongmind to thank for bringing us together. We became friends, fell in love, and now we’re getting married!</p>
+          <p>We’re happiest goofing around, trying a new restaurant or game, and cooking something together at home. Life with each other is full of laughter, and we can’t wait to celebrate this next chapter with our favorite people.</p>
         </div>
       </section>
 
