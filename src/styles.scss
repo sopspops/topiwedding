@@ -262,11 +262,6 @@ img {
     }
   }
 
-  &:hover &__visual {
-    transform: translateY(-1rem);
-    box-shadow: 0 20px 36px rgba(0, 0, 0, 0.4);
-  }
-
   h3 {
     margin: 0 0 0.55rem;
     font-size: clamp(1.25rem, 2vw, 1.65rem);
@@ -310,11 +305,6 @@ img {
     object-position: center;
     box-shadow: 0 10px 24px rgba(0, 0, 0, 0.26);
     transition: transform 250ms ease, box-shadow 250ms ease;
-  }
-
-  &__item:hover &__photo {
-    transform: translateY(-1rem);
-    box-shadow: 0 20px 36px rgba(0, 0, 0, 0.4);
   }
 }
 
@@ -500,6 +490,13 @@ img {
 
   .gallery {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 801px) and (hover: hover) and (pointer: fine) {
+  .detail-card:hover .detail-card__visual {
+    transform: translateY(-0.4rem);
+    box-shadow: 0 20px 36px rgba(0, 0, 0, 0.4);
   }
 }
 
